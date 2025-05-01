@@ -1,0 +1,676 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html,
+body {
+    font-family: 'Pretendard-Regular';
+    font-size: 62.5%;
+}
+
+.section-01 {
+    position: relative;
+}
+
+.section-01 .image {
+    width: 100%;
+    height: 960px;
+}
+
+.section-01 .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-01 .inner {
+    max-width: 1440px;
+    width: calc(100% - 32px);
+    margin: 0 auto;
+
+}
+
+.section-01 .inner .text {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.section-01 .inner .text h2 {
+    font-size: 7rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 4rem;
+}
+
+.section-01 .inner .text p {
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-bottom: 8rem;
+}
+
+.section-01 .inner .text .main_btn {
+    border-radius: 50px;
+    background-color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #191919;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 5.6rem;
+    padding: 0 3rem;
+
+}
+
+.section-02 {
+    padding: 16rem 0;
+    background-color: #05012D;
+
+}
+
+.section-02 .inner {
+    max-width: 1440px;
+    width: calc(100% - 32px);
+    margin: 0 auto;
+
+}
+
+.section-02 .inner h2 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    color: white;
+    line-height: 1.3;
+    margin-bottom: 80px;
+    word-break: keep-all;
+}
+
+.section-02 .swiper {
+    color: white;
+    width: 100%;
+}
+
+.section-02 .swiper .swiper-wrapper {
+    width: 100%;
+    max-width: 1440px;
+    width: calc(100% - 32px);
+    margin: 0 auto;
+}
+
+.section-02 .swiper .swiper-wrapper .swiper-slide {
+    width: 702px !important;
+    max-height: 420px;
+    padding: 6rem 6rem;
+    border: 1px solid #ffffff80;
+    border-radius: 30px;
+    display: flex;
+}
+
+.section-02 .swiper .swiper-wrapper .swiper-slide:last-child {
+    opacity: 0;
+}
+
+.section-02 .swiper .swiper-wrapper .swiper-slide .text_box {
+    height: 100%;
+
+}
+
+.section-02 .swiper .swiper-wrapper .swiper-slide .text_box .title {
+    width: 100%;
+}
+
+.section-02 .swiper .swiper-wrapper .swiper-slide .text_box .title p {
+    color: #0088FF;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.section-02 .swiper .swiper-wrapper .swiper-slide .text_box .title h3 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.5;
+
+}
+
+.section-02 .swiper .swiper-wrapper .swiper-slide .text_box .cont {
+    margin-top: 6rem;
+}
+
+.section-02 .swiper .swiper-wrapper .swiper-slide .text_box .cont p {
+    font-size: 2rem;
+    font-weight: 200;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+.section-03 {
+    padding: 16rem 0;
+    background-color: #05012D;
+
+
+}
+
+.section-03 .inner {
+    color: #fff;
+    max-width: 1440px;
+    width: calc(100% - 32px);
+    margin: 0 auto;
+
+
+
+    /*     display: flex;
+    justify-content: space-between; */
+
+}
+
+.section-03 .inner .box_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-03 .inner .left_box {
+    position: sticky;
+    top: 160px;
+    left: 0;
+    display: inline-block;
+    height: 100%;
+}
+
+.section-03 .inner .left_box h3 {
+    font-size: 5.6rem;
+    line-height: 1.3;
+}
+
+.section-03 .inner .left_box strong {
+    display: block;
+    font-size: 2.4rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.section-03 .inner .left_box .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    width: 17.4rem;
+    border: 1px solid #fff;
+    border-radius: 50px;
+
+    width: 17.4rem;
+}
+
+.section-03 .inner .left_box .btn p {
+    font-size: 2rem;
+
+}
+
+.section-03 .inner .left_box .btn img {
+    width: 24px;
+}
+
+.section-03 .inner .right_box {
+    display: flex;
+    width: 48.75%;
+    justify-content: flex-end;
+    gap: 36px;
+}
+
+.section-03 .inner .right_box .box_01 {
+    width: 47.43%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 120px;
+}
+
+.section-03 .inner .right_box .box_02 {
+    width: 47.43%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 120px;
+}
+
+.section-03 .inner .right_box .box_02 .item:first-child {
+    margin-top: 200px;
+}
+
+.section-03 .inner .right_box .item {
+    width: 100%;
+    height: 40rem;
+    background: url('../img/image\ 4.png')center center /cover no-repeat;
+    position: relative;
+    padding: 32px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 16px;
+}
+
+.section-03 .inner .right_box .box_01 .item:nth-child(2) {
+    background: url('../img/image-7.png')center center /cover no-repeat;
+}
+
+.section-03 .inner .right_box .box_01 .item:nth-child(3) {
+    background: url('../img/image-9.png')center center /cover no-repeat;
+}
+
+.section-03 .inner .right_box .box_02 .item:first-child {
+    background: url('../img/image-6.png')center center /cover no-repeat;
+}
+
+.section-03 .inner .right_box .box_02 .item:last-child {
+    background: url('../img/image-8.png')center center /cover no-repeat;
+}
+
+
+.section-03 .inner .right_box .item::before {
+    content: '';
+    width: 41px;
+    height: 24px;
+    background: url('../img/arrow.svg')center center / cover no-repeat;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+
+}
+
+.section-03 .inner .right_box .item p {
+    font-size: 2.8rem;
+    font-weight: 700;
+
+
+}
+
+.section-04 {
+    padding: 16rem 0;
+}
+
+.section-04 .inner {}
+
+.section-04 .inner .title {
+    max-width: 1440px;
+    width: calc(100% - 32px);
+    margin: 0 auto;
+}
+
+
+.section-04 .inner .title h2 {
+    font-size: 5.6rem;
+    font-weight: 700;
+}
+
+.section-04 .inner .title .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    width: 17.4rem;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    width: 17.4rem;
+    margin-top: 16px;
+}
+
+.section-04 .inner .title .btn p {
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.section-04 .inner .title .btn img {
+    width: 24px;
+}
+
+.section-04 .swiper_wrap {
+    position: relative;
+}
+
+.section-04 .swiper {
+    margin-top: 10rem;
+    position: static;
+}
+
+
+
+
+
+.section-04 .swiper .swiper-wrapper .swiper-slide {
+    width: 456px !important;
+}
+
+.section-04 .swiper .swiper-wrapper .swiper-slide .image {
+    width: 100%;
+    height: 256px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.section-04 .swiper .swiper-wrapper .swiper-slide .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-04 .swiper .swiper-wrapper .swiper-slide .text {
+    display: flex;
+    flex-direction: column;
+    padding: 2.4rem 1rem;
+}
+
+.section-04 .swiper .swiper-wrapper .swiper-slide .text span {
+    font-size: 2rem;
+    color: #999;
+}
+
+.section-04 .swiper .swiper-wrapper .swiper-slide .text .title2 {
+    font-size: 2.4rem;
+    color: #111;
+    letter-spacing: -0.3px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 2.4rem;
+}
+
+.section-04 .swiper .swiper-wrapper .swiper-slide .text .view {
+    font-size: 2rem;
+    color: #0088FF;
+    font-weight: 600;
+    position: relative;
+}
+
+.section-04 .swiper .swiper-wrapper .swiper-slide .text .view::after {
+    content: '';
+    width: 1.4rem;
+    height: 1.4rem;
+    background: url('../img/blueArrow.svg')center center / cover no-repeat;
+    position: absolute;
+    left: 10rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.section-04 .swiper .swiper-button-next {
+    top: -100px;
+    right: 228px;
+    background: url('../img/next.png')center center /cover no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.section-04 .swiper .swiper-button-next::after {
+    display: none;
+
+}
+
+
+.section-04 .swiper .swiper-button-prev {
+    top: -100px;
+    right: 290px;
+    left: auto;
+    background: url('../img/PREV.png')center center /cover no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.section-04 .swiper .swiper-button-prev::after {
+    display: none;
+}
+
+.section-05 {
+    padding-bottom: 160px;
+}
+
+.section-05 .inner {
+    max-width: 1440px;
+    width: calc(100% - 32px);
+    margin: 0 auto;
+    position: relative;
+
+
+}
+
+.section-05 .inner .image {
+    position: relative;
+    width: 100%;
+}
+
+.section-05 .inner .image img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.section-05 .inner .image>div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 7.2rem;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.section-05 .inner h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+    white-space: nowrap;
+    display: block;
+}
+
+.section-05 .inner .btn_wrap {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.section-05 .inner .btn_wrap .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    border-radius: 50px;
+    width: 25.2rem;
+    font-size: 2rem;
+    white-space: nowrap;
+
+}
+
+.section-05 .inner .btn_wrap .btn01 {
+    background-color: #fff;
+    padding: 0 40px;
+    color: #0088FF;
+    font-weight: 600;
+}
+
+.section-05 .inner .btn_wrap .btn02 {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+@media screen and (max-width:1024px) {
+
+    html,
+    body {
+        font-size: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    html,
+    body {
+        font-family: 'Pretendard-Regular';
+        font-size: 37.5%;
+    }
+
+
+    .section-01 .image {
+        width: 100%;
+        height: 80vw;
+
+    }
+
+    .section-01 .inner .text {
+        top: 50%;
+        transform: translateY(-50%);
+
+    }
+
+    .section-02 .swiper .swiper-wrapper {
+        flex-wrap: wrap;
+        row-gap: 2.66rem;
+
+    }
+
+    .section-02 .swiper .swiper-wrapper .swiper-slide {
+        width: 47% !important;
+        height: auto;
+
+    }
+
+    .section-02 .swiper .swiper-wrapper .swiper-slide .text_box {
+        height: 100%;
+    }
+
+    .section-03 .inner .box_wrap {
+        flex-direction: column;
+    }
+
+    .section-03 .inner .left_box {
+        position: static;
+        top: 160px;
+        left: 0;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .section-03 .inner .right_box {
+        width: 100%;
+        margin-top: 48px;
+    }
+
+    .section-03 .inner .right_box .box_01 {
+        row-gap: 36px;
+        width: 100%;
+    }
+
+    .section-03 .inner .right_box .box_02 {
+        margin-top: 150px;
+        row-gap: 36px;
+        width: 100%;
+    }
+
+    .section-03 .inner .right_box .item {}
+
+    .section-03 .inner .right_box .box_02 .item:first-child {
+        margin: 0;
+    }
+
+    .section-04 .inner .title .btn {
+        padding-right: 10px;
+    }
+
+    .section-04 .inner .title .btn p {
+        font-size: 2.66rem;
+        padding-left: 4rem;
+        white-space: nowrap;
+    }
+
+
+    .section-04 .swiper .swiper-wrapper {
+        margin-left: 16px;
+    }
+
+    .section-04 .swiper .swiper-wrapper .swiper-slide {
+        margin-right: 12px !important;
+    }
+
+
+    .section-04 .swiper .swiper-button-next {
+        right: 16px;
+        top: -60px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .section-04 .swiper .swiper-button-prev {
+        right: 75px;
+        top: -60px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .section-04 .swiper .swiper-wrapper .swiper-slide {
+        width: 70% !important;
+    }
+
+    .section-04 .swiper .swiper-wrapper .swiper-slide .image {
+        height: 190px;
+    }
+
+    .section-04 .swiper .swiper-wrapper .swiper-slide .text .title {
+        font-size: 16px;
+    }
+
+
+    .section-05 .inner h2 {
+        font-size: 3.3rem;
+    }
+
+    .section-05 .inner .btn_wrap .btn {
+        font-size: 2.66rem;
+    }
+
+    .section-05 .inner .btn_wrap .btn02 {
+        border: 2px solid #fff;
+        color: #fff;
+    }
+
+    .section-05 .inner .image {
+        height: 33.33vh;
+        border-radius: 16px;
+        overflow: hidden;
+    }
+
+
+
+
+}
